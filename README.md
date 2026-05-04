@@ -1,5 +1,9 @@
 # Perceptron Neural Network – Binary Classification on Iris Dataset 🌸
 
+<p align="center">
+  <img src="Output_Images/Perceptron_Banner.png" alt="Perceptron Neural Network Banner" width="80%">
+</p>
+
 Binary classification of Iris flowers using a Perceptron model with clear decision boundary visualization and confusion matrix.  
 
 This mini project is part of my continuous practice in Machine Learning and basic Deep Learning concepts, implemented and documented with a clean Jupyter Notebook and visual outputs.
@@ -10,17 +14,14 @@ This mini project is part of my continuous practice in Machine Learning and basi
 
 A quick visual overview of what this project does.
 
-### 1️⃣ Iris Dataset – Binary Classification View
+<p align="center">
+  <img src="Output_Images/Iris%20Dataset%20-%20Binary%20Classification.png" alt="Iris Dataset - Binary Classification" width="45%">
+  <img src="Output_Images/Decision%20Boundary.png" alt="Decision Boundary" width="45%">
+</p>
 
-![Iris Dataset - Binary Classification](Output_Images/Iris%20Dataset%20-%20Binary%20Classification.png)
-
-### 2️⃣ Perceptron Decision Boundary
-
-![Decision Boundary](Output_Images/Decision%20Boundary.png)
-
-### 3️⃣ Confusion Matrix of Perceptron Model
-
-![Confusion Matrix - Perceptron](Output_Images/Confusion%20Matrix%20-%20Perceptron.png)
+<p align="center">
+  <img src="Output_Images/Confusion%20Matrix%20-%20Perceptron.png" alt="Confusion Matrix - Perceptron" width="45%">
+</p>
 
 These visuals show how the Perceptron separates two Iris classes in 2D feature space and how well it performs on the test data.
 
@@ -96,9 +97,9 @@ Inside the notebook, you will find:
 - Task: Binary classification on a subset of the Iris dataset.  
 - Evaluation:  
   - **Confusion Matrix**: shown above in the Visual Story section as “Confusion Matrix - Perceptron”.  
-  - **Accuracy**: the model achieved **100%** accuracy on the test data (replace this with your exact value from the notebook).  
+  - **Accuracy**: the model achieved **100%** accuracy on the test data.  
 
-This section gives a quick idea of how well the Perceptron separates the two Iris classes.
+Even though the task is simple, getting 100% accuracy shows that the Perceptron is able to perfectly separate these two classes in the chosen feature space.
 
 ---
 
