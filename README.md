@@ -29,28 +29,28 @@ These visuals show how the Perceptron separates two Iris classes in 2D feature s
 
 ## 📘 What this project demonstrates
 
-- Implementation of a **Perceptron** model for binary classification on the classic Iris dataset.  
-- Understanding Perceptron as a **basic Artificial Neural Network (ANN)** concept inside the broader Deep Learning / Machine Learning field.  
-- Visualizing the learned **decision boundary** in 2D feature space.  
-- Evaluating performance using a **confusion matrix** and simple metrics like accuracy.
+- Implementation of a **Perceptron** model for binary classification on the classic Iris dataset.
+- Understanding Perceptron as a **basic Artificial Neural Network (ANN)** concept inside the broader Deep Learning and Machine Learning field.
+- Visualizing the learned decision boundary in 2D feature space.
+- Evaluating model performance using a confusion matrix and accuracy.
 
 ---
 
 ## 📂 Project Overview
 
-- Problem type: **Binary classification** (two Iris species).  
-- Algorithm: **Perceptron Neural Network** (single-layer, linear decision boundary).  
-- Input features: Two numerical features selected from the Iris dataset to allow 2D visualization.  
-- Outputs: trained Perceptron decision boundary plot, confusion matrix heatmap, and a clear step-by-step notebook explaining the workflow.
+- Problem type: **Binary classification** using two Iris species.
+- Algorithm used: **Perceptron Neural Network** single-layer with a linear decision boundary.
+- Input features: Two numerical features selected from the Iris dataset for 2D visualization.
+- Outputs: decision boundary plot, confusion matrix heatmap, and a step-by-step notebook workflow.
 
 ---
 
 ## 📊 Dataset
 
-- Base dataset: **Iris dataset** (popular ML dataset).  
-- Classes: Filtered to **two classes** to make it a binary classification task.  
-- Features: Selected two features (for example, sepal/petal measurements) to visualize data and boundary in 2D.  
-- Preprocessing: data loading and selection of required columns, class filtering to convert multi-class Iris into binary, and a train-test split for evaluation.
+- Dataset used: **Iris dataset**.
+- Task setup: Converted from multi-class to binary classification by selecting two classes.
+- Features: Two numerical features chosen for visualizing class separation.
+- Preprocessing steps: data selection, class filtering, and train-test split.
 
 ---
 
@@ -62,55 +62,54 @@ The main notebook in this repository is:
 
 Inside the notebook, you will find:
 
-1. **Introduction & Problem Setup**  
-   - Overview of the Iris dataset and binary classification objective.  
-   - Short explanation of the Perceptron model.
+1. **Introduction & Problem Setup**
+- Overview of the Iris dataset and binary classification objective.
+- Short explanation of the Perceptron model.
 
-2. **Data Loading & Exploration**  
-   - Load the Iris dataset.  
-   - Filter for two target classes.  
-   - Select two features for 2D visualization.  
-   - Basic plots to understand class separation.
+2. **Data Loading & Exploration**
+- Load the Iris dataset.
+- Filter for two target classes.
+- Select two features for 2D visualization.
+- Create basic plots to understand class separation.
 
-3. **Data Preparation**  
-   - Train-test split.  
-   - Basic scaling/normalization steps if required for Perceptron training.
+3. **Data Preparation**
+- Perform train-test split.
+- Apply preprocessing steps if required for model training.
 
-4. **Perceptron Model Training**  
-   - Initialize and train the Perceptron model.  
-   - Observe convergence and decision boundary behavior.
+4. **Perceptron Model Training**
+- Initialize and train the Perceptron model.
+- Observe convergence and classification behavior.
 
-5. **Visualization**  
-   - Plot the **Iris data points** in the chosen 2D feature space.  
-   - Plot the **decision boundary** learned by the Perceptron.  
-   - Show the **confusion matrix** as a heatmap.
+5. **Visualization**
+- Plot the Iris data points in 2D feature space.
+- Plot the learned decision boundary.
+- Display the confusion matrix.
 
-6. **Evaluation & Insights**  
-   - Compute accuracy and other basic metrics.  
-   - Analyze the confusion matrix.  
-   - Briefly discuss where the model performs well and where it misclassifies.
+6. **Evaluation & Insights**
+- Compute model accuracy.
+- Interpret the confusion matrix.
+- Discuss the model’s classification behavior.
 
 ---
 
 ## 📈 Model Performance
 
-- Task: Binary classification on a subset of the Iris dataset.  
-- Evaluation:  
-  - **Confusion Matrix**: shown above in the Visual Story section as “Confusion Matrix - Perceptron”.  
-  - **Accuracy**: the model achieved **100%** accuracy on the test data.  
+- Task: Binary classification on a subset of the Iris dataset.
+- **Accuracy**: The model achieved **100%** accuracy on the test data.
+- **Confusion Matrix**: Included above in the Visual Story section.
 
-Even though the task is simple, getting 100% accuracy shows that the Perceptron is able to perfectly separate these two classes in the chosen feature space.
+This result shows that the selected two classes are linearly separable in the chosen feature space, making them a strong fit for a Perceptron-based classifier.
 
 ---
 
 ## 🧩 What I practiced in this project
 
-- Working with the **Iris dataset** for a binary classification task.  
-- Implementing a **Perceptron Neural Network** for a simple real-world dataset.  
-- Understanding how a **linear decision boundary** separates two classes in feature space.  
-- Generating and interpreting a **confusion matrix**.  
-- Creating clean, meaningful **visualizations** to explain a model’s behavior.  
-- Organizing a mini ML/ANN project on GitHub with a clear notebook and image outputs.
+- Working with the Iris dataset for binary classification.
+- Implementing a Perceptron Neural Network from a practical learning perspective.
+- Understanding how a linear decision boundary separates classes.
+- Interpreting model performance through a confusion matrix.
+- Creating visual explanations for classification results.
+- Structuring and documenting an ML mini project for GitHub.
 
 ---
 
@@ -143,13 +142,11 @@ Run the cells step by step to reproduce the results and visualizations.
 
 ## 🧭 Future improvements
 
-Some ideas to extend this mini project:
-
-- Implement a **Multi-Layer Perceptron (MLP)** and compare it with the single-layer Perceptron.  
-- Try different **feature combinations** from the Iris dataset and see how the decision boundary changes.  
-- Add **cross-validation** and more detailed metrics (precision, recall, F1-score).  
-- Compare the Perceptron with other classifiers like **Logistic Regression, SVM, or k-NN** on the same binary task.  
-- Turn this into a small part of a larger **Deep Learning practice series**.
+- Implement a **Multi-Layer Perceptron (MLP)** and compare it with the single-layer Perceptron.
+- Try different feature combinations from the Iris dataset and compare the decision boundaries.
+- Add cross-validation and more evaluation metrics such as precision, recall, and F1-score.
+- Compare Perceptron with classifiers like Logistic Regression, SVM, or k-NN.
+- Extend this project into a broader Deep Learning practice series.
 
 ---
 
@@ -160,26 +157,27 @@ Perceptron-Neural-Network-Binary-Classification/
 │
 ├── Binary Classification of Iris Flowers Using Perceptron Algorithm.ipynb
 ├── README.md
-├── LICENSE                 # project license (MIT)
+├── LICENSE
 └── Output_Images/
+    ├── Perceptron_Banner.png
     ├── Iris Dataset - Binary Classification.png
     ├── Decision Boundary.png
     └── Confusion Matrix - Perceptron.png
 ```
 
-This structure keeps the main notebook, license, and visual outputs organized and easy to explore.
+This structure keeps the notebook, documentation, banner, and output visuals organized and easy to navigate.
 
 ---
 
 ## 👤 Author
 
-**Adiratna Kamble**  
+**Adiratna Kamble**
 
-- GitHub: [adiratna89](https://github.com/adiratna89)  
-- LinkedIn: [linkedin.com/in/adiratna-kamble](https://www.linkedin.com/in/adiratna-kamble)  
-- Email: adi8976839010@gmail.com  
+- GitHub: [adiratna89](https://github.com/adiratna89)
+- LinkedIn: [linkedin.com/in/adiratna-kamble](https://www.linkedin.com/in/adiratna-kamble)
+- Email: adi8976839010@gmail.com
 
-This mini project is part of my journey in Python, Machine Learning, and Deep Learning basics, and my effort to continuously improve how I design and document ML projects on GitHub.
+This mini project reflects my continuous hands-on practice in Python, Machine Learning, and Deep Learning fundamentals, along with my effort to improve project presentation on GitHub.
 
 ---
 
